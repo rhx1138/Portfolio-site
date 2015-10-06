@@ -1,4 +1,3 @@
-
 /********************* GENERAL ******************/
 
 * {
@@ -15,7 +14,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color:  rgba(119, 114, 4, 0.61);
+    color: rgba(119, 114, 4, 0.61);
     font-weight: bold;
 }
 
@@ -30,7 +29,6 @@ body {
     margin-bottom: 10px;
 }
 
-
 img {
     width: 100%;
 }
@@ -38,23 +36,24 @@ img {
 /********************* HEADER ******************/
 
 .clear {
-    clear:  both;
-    border-top:  4px solid #BCBBBB;;
-    height:  20px;
+    clear: both;
+    border-top: 4px solid #BCBBBB;
+    ;
+    height: 20px;
 }
 
 .logo {
-    max-width:  100px;
-    min-width:  100px;
+    max-width: 100px;
+    min-width: 100px;
 }
 
 
 
 /********************* GALLERY ******************/
 .header-secondary {
-    font-size:  20px;
+    font-size: 20px;
     color: #BCBBBB;
-    margin-bottom:  5px;
+    margin-bottom: 5px;
 }
 
 .caption {
@@ -64,7 +63,7 @@ img {
 
 .address {
     font-size: 10px;
-    color:  #BCBBBB;
+    color: #BCBBBB;
 }
 
 
@@ -90,11 +89,10 @@ img {
 }
 
 .col-10 {
-    
     width: 83.33%;
     float: left;
     text-align: right;
-    position:  relative;
+    position: relative;
     top: 25px;
 }
 
@@ -105,37 +103,34 @@ img {
 /********************* MEDIA QUERIES ******************/
 
 @media only screen and (max-width: 500px) {
-   
+
     .col-4, .col-last {
         width: 100%;
         margin-bottom: 20px;
     }
 
     .col-10, .col-2 {
-        margin:  0 auto;
+        margin: 0 auto;
         width: 100%;
         margin-bottom: 20px;
-        top: 0;   
+        top: 0;
     }
 
     .logo {
-       display:  block;
-       margin:  0 auto;
+        display: block;
+        margin: 0 auto;
     }
 
     h1 {
         font-size: 30px;
-        text-align:  center;
-
+        text-align: center;
     }
 
     p {
         font-size: 20px;
-        text-align:  center;
-    }
+        text-align: center;
+    };
+}
 
-  }
 
- 
 
-   
